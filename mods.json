@@ -1,15 +1,21 @@
 {
   "Power Tools": {
+    "Author": "freakycheesy",
+    "Game": "BONELAB",
     "ModLocation": "src/mods/binaries/PowerTools.dll",
     "IconLocation": "src/mods/icons/powertools.png",
     "Description": "Quality of Life Features"
   },
   "Port A Warehouse": {
+    "Author": "freakycheesy",
+    "Game": "BONELAB",
     "ModLocation": "src/mods/binaries/Port_A_Warehouse.dll",
     "IconLocation": "src/mods/icons/paw.png",
     "Description": "Searchbar for Pallets, Crates and Mods"
   },
   "iInput": {
+    "Author": "freakycheesy",
+    "Game": "BONELAB",
     "ModLocation": "src/mods/binaries/iInput.dll",
     "IconLocation": "src/mods/icons/iinput.png",
     "Description": "Controller Input Eye Tracking"
