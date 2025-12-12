@@ -1,0 +1,17 @@
+{
+  "Power Tools": {
+    "ModLocation": "../src/mods/binaries/PowerTools.dll",
+    "IconLocation": "../src/mods/icons/powertools.png",
+    "Description": "Quality of Life Features"
+  },
+  "Port A Warehouse": {
+    "ModLocation": "../src/mods/binaries/Port_A_Warehouse.dll",
+    "IconLocation": "../src/mods/icons/paw.png",
+    "Description": "Searchbar for Pallets, Crates and Mods"
+  },
+  "iInput": {
+    "ModLocation": "../src/mods/binaries/iInput.dll",
+    "IconLocation": "../src/mods/icons/iinput.png",
+    "Description": "Controller Input Eye Tracking"
+  }
+}
