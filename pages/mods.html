@@ -19,12 +19,16 @@
     <div>
         
         <center>
-            <div>
-                <h2>
-                    Mods<br>
-                </h2>
-
+            <div>            
                 <div id="grid" style="background-color:rgb(5, 10, 20);">
+                    <h2>
+                        Mods
+                    </h2>
+                    <br>
+                    <select class="moddrop" onchange="modValueChanged()">
+
+                    </select>
+                    <br>
                     <div id="content" style="background-color:rgb(5, 10, 20);">
                         <img src="../src/mods/icons/powertools.png" width=100px>
                         <div id="content" style="background-color:rgb(5, 10, 20);">
@@ -33,30 +37,6 @@
                             <p>Quality of Life features</p>
                             <br>
                             <button class="download" onclick='downloadBegin("../src/mods/binaries/PowerTools.dll", "Power Tools.dll")'>DOWNLOAD</button>
-                        </div>
-                        <br>
-                    </div>
-                    <div id="content" style="background-color:rgb(5, 10, 20);">
-                        <img src="../src/mods/icons/paw.png" width=100px>
-                        <div id="content" style="background-color:rgb(5, 10, 20);">
-                            <h3>Port a Warehouse</h3>
-                            <br>
-                            <p>SEARCHBAR FOR LOCAL CONTENT AND MODS!</p>
-                            <br>
-                            <button class="download"
-                                onclick='downloadBegin("../src/mods/binaries/Port_A_Warehouse.dll", "PAW.dll")'>DOWNLOAD</button>
-                        </div>
-                        <br>
-                    </div>
-                    <div id="content" style="background-color:rgb(5, 10, 20);">
-                        <img src="../src/mods/icons/iinput.png" width=100px>
-                        <div id="content" style="background-color:rgb(5, 10, 20);">
-                            <h3>iInput</h3>
-                            <br>
-                            <p>Controller-Input Eye-Tracking Implementation!</p>
-                            <br>
-                            <button class="download"
-                                onclick='downloadBegin("../src/mods/binaries/iInput.dll", "iInput.dll")'>DOWNLOAD</button>
                         </div>
                         <br>
                     </div>
