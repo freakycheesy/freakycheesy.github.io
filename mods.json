@@ -1,5 +1,6 @@
 {
   "Power Tools": {
+    "Version": "6",
     "Author": "freakycheesy",
     "Game": "BONELAB",
     "ModLocation": "src/mods/binaries/PowerTools.dll",
@@ -7,6 +8,7 @@
     "Description": "Quality of Life Features"
   },
   "Port A Warehouse": {
+    "Version": "2",
     "Author": "freakycheesy",
     "Game": "BONELAB",
     "ModLocation": "src/mods/binaries/Port_A_Warehouse.dll",
@@ -14,6 +16,7 @@
     "Description": "Searchbar for Pallets, Crates and Mods"
   },
   "iInput": {
+    "Version": "1",
     "Author": "freakycheesy",
     "Game": "BONELAB",
     "ModLocation": "src/mods/binaries/iInput.dll",
