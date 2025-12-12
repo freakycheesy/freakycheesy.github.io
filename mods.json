@@ -1,4 +1,12 @@
 {
+  "Freak Assist": {
+    "Version": "1",
+    "Author": "freakycheesy",
+    "Game": "BONELAB",
+    "ModLocation": "src/mods/binaries/freakAssist.dll",
+    "IconLocation": "src/mods/icons/freakassist.png",
+    "Description": "Mod Assistant of freakycheesy's mods for BONELAB"
+  },
   "Power Tools": {
     "Version": "6",
     "Author": "freakycheesy",
