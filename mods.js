@@ -1,4 +1,3 @@
-var downloadElement = document.getElementsByClassName("download");
 
 function downloadBegin(link, name) {
     const a = document.createElement("a");
