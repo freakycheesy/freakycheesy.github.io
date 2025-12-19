@@ -37,7 +37,11 @@ function loadNewMod(index) {
     var modicon = document.querySelector("#modicon")
     modicon.src = `/${mod["IconLocation"]}`;
     var modTitle = document.querySelector("#modtitle");
-    modTitle.innerHTML = name;
+    modTitle.innerHTML = `<u>${name}</u> v${mod["Version"]}`;
+    var modAuthor = document.querySelector("#modauthor");
+    modAuthor.innerHTML = `by <i>${mod["Author"]}</i>`;
+    var modGame = document.querySelector("#modgame");
+    modGame.innerHTML = `for <i>${mod["Game"]}</i>`;
     var moddesc = document.querySelector("#moddesc");
     moddesc.innerHTML = `${mod["Description"]}`;
     var modsite = document.querySelector("#modsite");
