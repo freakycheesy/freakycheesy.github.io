@@ -1,18 +1,7 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>freakycheesy's portfolio</title>
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="icon" type="image/png" href="../src/images/favicon.png?v=2">
-    <header>
-        <h1>
-            <a href="../index.html"><img src="../src/images/freakycheesy.png" width=50px></a>
-            FREAKY CHEESY'S PORTFOLIO OF MADNESS
-        </h1>
-    </header>
+        <link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
@@ -27,18 +16,20 @@
                 <div id="grid" style="background-color:rgb(5, 10, 20);">
                     <hgroup>
                         <h3>MODS LIST</h3>
-                        <button class="mod"></button>
+                        <div id="mods">
+
+                        </div>
                     </hgroup>
                     <br>
                     <div id="content" style="background-color:rgb(5, 10, 20);">
-                        <img src="../src/mods/icons/powertools.png" width=100px class="modicon">
+                        <img src="" width=100px id="modicon">
                         <div id="content" style="background-color:rgb(5, 10, 20);">
-                            <h3 class="modtitle">PowerTools (Patch 6+)</h3>
+                            <h3 id="modtitle"></h3>
                             <br>
-                            <p class="moddesc">Quality of Life features</p>
+                            <p id="moddesc"></p>
                             <br>
-                            <a class="modsite"><button>MOD WEBSITE</button></a>
-                            <button class="moddownload" onclick='downloadBegin("../src/mods/binaries/PowerTools.dll", "Power Tools.dll")'>DOWNLOAD</button>
+                            <a id="modsite" href="" target="_blank"><button>MOD WEBSITE</button></a>
+                            <a href="" id="moddownload"><button>DOWNLOAD</button></a>
                         </div>
                         <br>
                     </div>
@@ -47,7 +38,7 @@
     </div>
     <div id="projectNames" class="names">
     </div>
-    <script src="../mods.js"></script>
+    <script src="/src/scripts/mods.js"></script>
 </body>
 
 </html>

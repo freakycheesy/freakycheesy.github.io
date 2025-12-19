@@ -5,33 +5,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>freakycheesy's portfolio</title>
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="icon" type="image/png" href="../src/images/favicon.png?v=2">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/png" href="/src/images/favicon.png?v=2">
     <header>
         <h1>
-            <a href="../index.html"><img src="../src/images/freakycheesy.png" width=50px></a>
+            <a href="/index.html"><img src="../src/images/freakycheesy.png" width=50px></a>
             FREAKY CHEESY'S PORTFOLIO OF MADNESS
         </h1>
     </header>
+
+    <script>
+
+        function loadPage(value) {
+            document.getElementById("inception").src = value;
+        }
+    </script>
 </head>
+
 <body>
     <div>
         <center>
-        <div>
-        <h2>
-            Welcome to my portfolio<br>
-        </h2>
+            <div>
+                <h2>
+                    Welcome to my portfolio<br>
+                </h2>
 
-        <div id="content" style="background-color:rgb(5, 10, 20);">
-            <h2>Links:</h2><br>
-            <a href="../pages/project.html">Projects</a>
-            <br>
-            <a href="../pages/modsold.html">Mods (Old, Stable)</a>
-            <br>
-            <a href="../pages/mods.html">Mods (New, Unstable)</a>
-        </div>
-        </div>
-    </center>
+                <div id="content" style="background-color:rgb(5, 10, 20);">
+                    <br>
+                    <h2>CHAPTERS:</h2><br>
+                    <button onclick="loadPage('pages/project.html')">Projects</button>
+                    <button onclick="loadPage('pages/mods.html')">Mods</button>
+                    <br> <iframe id="inception" src="pages/project.html">
+                </div>
+            </div>  
+        </center>
     </div>
     <div id="projectNames" class="names">
     </div>
