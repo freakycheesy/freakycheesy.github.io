@@ -19,6 +19,10 @@
         function loadPage(value) {
             document.getElementById("inception").src = value;
         }
+
+        function loadNewPage(value) {
+          window.open(value, '_blank');
+        }
     </script>
 </head>
 
@@ -33,7 +37,7 @@
                 <div id="content" style="background-color:rgb(5, 10, 20);">
                     <br>
                     <h2>CHAPTERS:</h2><br>
-                    <button onclick="loadPage('pages/mods.html')">Mods</button>
+                    <button onclick="loadNewPage('https://github.com/freakycheesy')">GitHub</button>
                     <button onclick="loadPage('pages/project.html')">Projects</button>
                     <button onclick="loadPage('pages/download.html')">Download</button>
                     <br> <iframe id="inception" style="width: 90%;
